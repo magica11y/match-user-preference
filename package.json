@@ -1,7 +1,7 @@
 {
   "name": "@magica11y/match-user-preference",
   "homepage": "https://magica11y.github.io",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shared core behind Magica11y’s functions.",
   "module": "lib/index.js",
   "main": "lib/index.js",
