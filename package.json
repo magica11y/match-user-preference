@@ -9,6 +9,7 @@
     "build": "./node_modules/@magica11y/cauldron/build/build.sh",
     "build:dist": "./node_modules/@magica11y/cauldron/build/build-dist.sh",
     "build:lib": "./node_modules/@magica11y/cauldron/build/build-lib.sh",
+    "postbuild:lib": "babel --out-dir lib/testing testing",
     "build:flow": "./node_modules/@magica11y/cauldron/build/build-flow.sh",
     "ci": "./node_modules/@magica11y/cauldron/build/ci.sh",
     "clean": "./node_modules/@magica11y/cauldron/build/clean.sh",
