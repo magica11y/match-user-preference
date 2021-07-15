@@ -4,6 +4,7 @@
   "version": "1.0.2",
   "description": "Shared core behind Magica11y’s functions.",
   "module": "lib/index.js",
+  "main": "lib/index.js",
   "browser": "dist/magica11y.matchUserPreference.js",
   "scripts": {
     "build": "./node_modules/@magica11y/cauldron/build/build.sh",
