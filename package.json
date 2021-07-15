@@ -1,0 +1,67 @@
+{
+  "name": "@magica11y/match-user-preference",
+  "homepage": "https://magica11y.github.io",
+  "version": "0.1.0",
+  "description": "Shared core behind Magica11y’s functions.",
+  "module": "lib/index.js",
+  "browser": "dist/magica11y.matchUserPreference.js",
+  "scripts": {
+    "build": "./node_modules/@magica11y/cauldron/build/build.sh",
+    "build:dist": "./node_modules/@magica11y/cauldron/build/build-dist.sh",
+    "build:lib": "./node_modules/@magica11y/cauldron/build/build-lib.sh",
+    "build:flow": "./node_modules/@magica11y/cauldron/build/build-flow.sh",
+    "ci": "./node_modules/@magica11y/cauldron/build/ci.sh",
+    "clean": "./node_modules/@magica11y/cauldron/build/clean.sh",
+    "clean:nuke": "./node_modules/@magica11y/cauldron/build/clean-nuke.sh",
+    "test": "./node_modules/@magica11y/cauldron/build/test.sh",
+    "test:coverage": "./node_modules/@magica11y/cauldron/build/test-coverage.sh",
+    "lint": "./node_modules/@magica11y/cauldron/build/lint.sh",
+    "lint:fix": "./node_modules/@magica11y/cauldron/build/lint-fix.sh",
+    "typecheck": "./node_modules/@magica11y/cauldron/build/typecheck.sh",
+    "release": "./node_modules/@magica11y/cauldron/build/release.sh",
+    "release:minor": "./node_modules/@magica11y/cauldron/build/release-minor.sh",
+    "release:major": "./node_modules/@magica11y/cauldron/build/release-major.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magica11y/match-user-preference.git"
+  },
+  "keywords": [
+    "a11y",
+    "accessibility",
+    "css",
+    "media-query",
+    "level-5",
+    "matchmedia",
+    "prefers-reduced-motion",
+    "light-level",
+    "match-user-preference",
+    "inverted-colors",
+    "prefers-reduced-transparency",
+    "prefers-contrast",
+    "prefers-color-scheme",
+    "forced-colors"
+  ],
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Rishabh Rao",
+    "email": "rishabh.ink+github@gmail.com",
+    "url": "https://rishabh.ink"
+  },
+  "files": [
+    "build",
+    "dist",
+    "lib"
+  ],
+  "devDependencies": {
+    "@magica11y/cauldron": "^1.0.17",
+    "webpack-merge": "^5.8.0"
+  }
+}
