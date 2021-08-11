@@ -5,6 +5,21 @@ import matchUserPreference from '../src';
 import mockWindowMatchMedia from '../testing/mockWindowMatchMedia';
 
 describe('matchUserPreference()', () => {
+  it('returns null if the "window" object does not exist', () => {
+    const originalGlobal = global;
+    global = undefined; // eslint-disable-line no-global-assign
+
+    expect(matchUserPreference('prefers-reduced-motion', 'reduce')).toBe(null);
+
+    global = originalGlobal; // eslint-disable-line no-global-assign
+  });
+
+  it('returns null if the "matchMedia" function does not exist', () => {
+    delete global.matchMedia;
+
+    expect(matchUserPreference('prefers-reduced-motion', 'reduce')).toBe(null);
+  });
+
   it('returns true if media query matches', () => {
     global.matchMedia = jest
       .fn()
