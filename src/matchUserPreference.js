@@ -11,7 +11,7 @@ export type UserPreference =
   | 'prefers-reduced-transparency';
 
 const matchUserPreference = (mediaQueryKey: UserPreference, mediaQueryValue: string): ?boolean => {
-  if (!window || !('matchMedia' in window)) {
+  if (typeof window === 'undefined' || !('matchMedia' in window)) {
     return null;
   }
 
