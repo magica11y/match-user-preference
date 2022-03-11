@@ -60,7 +60,8 @@
   "files": [
     "build",
     "dist",
-    "lib"
+    "lib",
+    "src"
   ],
   "devDependencies": {
     "@magica11y/cauldron": "^1.0.17",
