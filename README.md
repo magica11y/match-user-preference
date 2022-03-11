@@ -2,7 +2,7 @@ Match User Preference
 =====================
 > The shared core behind [Magica11y](https://github.com/magica11y/cauldron)’s functions.
 
-[![Travis](https://img.shields.io/travis/com/magica11y/match-user-preference.svg?style=for-the-badge "Travis build status")](https://travis-ci.com/magica11y/match-user-preference)
+[![Travis](https://img.shields.io/travis/com/magica11y/match-user-preference.svg?style=for-the-badge "Travis build status")](https://app.travis-ci.com/github/magica11y/match-user-preference)
 [![NPM](https://img.shields.io/npm/v/@magica11y/match-user-preference.svg?style=for-the-badge "NPM version")](https://www.npmjs.com/package/@magica11y/match-user-preference)
 [![Coveralls](https://img.shields.io/coveralls/magica11y/match-user-preference.svg?style=for-the-badge "Test coverage status")](https://coveralls.io/r/magica11y/match-user-preference)
 [![David DM](https://img.shields.io/david/magica11y/match-user-preference.svg?style=for-the-badge "Dependencies status")](https://david-dm.org/magica11y/match-user-preference)
